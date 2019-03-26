@@ -1,123 +1,196 @@
-.page{
-    width: 100%;
-    margin: auto;
-    font-family: 'Indie Flower', cursive;
-    font-size: 14px;
-    border: 5px solid #3388cc;
-    border-radius: 10px;
-    box-shadow: 2px 3px 4px black;
-    padding: 20px;
+* {
+  box-sizing: border-box;
 }
 
-.infophotoliens{
-    height: 250px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  width: auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+.page{
+  width: 100%;
+  margin: auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.conteneurheader{
+  height: 350px;
 }
 
 .info{
-    float: left;
+  float: left;
 }
 .liens{
-    float: center;
+  float: center;
 }
 
 .photo{
-    float: right;
+  float: right;
 }
 
-.section{
-    margin-bottom: 70px;
-    text-align: justify;
+.section2{
+  margin-bottom: 70px;
+  text-align: justify;
+  -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
+  }
 }
 
 .sec-gauche{
-    float: left;
-    font-weight: bold;
-    font-size: 16px;
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .sec-droite{
-    margin-left: 150px;
-    margin-top: 40px;
+  margin-left: 150px;
+  margin-top: 40px;
 }
 
 h2{
-    font-size: 20px;
-    color: #3388bb;
-    border-bottom: 3px solid #3388dd;
+  font-size: 20px;
+  color: #3388bb;
+  border-bottom: 3px solid #3388dd;
 }
 
 .duree{
-    font-weight: normal;
-    font-style: italic;
-    font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 14px;
 }
 
 .titre{
-    font-weight: bold;
-    font-size: 16px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 #forma-gauche p{
-    margin-bottom: 55px;
+  margin-bottom: 55px;
 }
 
 #exp-gauche p{
-    margin-top: 29px;
+  margin-top: 29px;
 }
 
 #lang-droite-sub{
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #lang-droite{
-    line-height: 20px;
+  line-height: 20px;
 }
 
 #interet-droite{
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 #interet-droite-int{
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 strong{
-    font-size: 22px;
+  font-size: 22px;
 }
 
-#conteneur1{
-    display: flex;
-    flex-wrap: wrap;
-    }
+#conteneur{
+  display: flex;
+  flex-wrap: wrap;
+  }
 
 .formation{
-    width: 80%;
-    height: auto;
-    background-color: green;
-    border-radius: 10px;
-    padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: green;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .experiences{
-    width: 80%;
-    height: auto;
-    background-color: red;
-    border-radius: 10px;
-    padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: red;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .competences{
-    width: 80%;
-    height: auto;
-    background-color: yellow;
-    border-radius: 10px;
-    padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .publications{
-    width: 80%;
-    height: auto;
-    background-color: blue;
-    border-radius: 10px;
-    padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.img-responsive{
+  display: block;
+  max-width: 50%;
+  height: auto;
 }
