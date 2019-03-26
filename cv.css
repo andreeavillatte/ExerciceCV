@@ -9,12 +9,15 @@
     padding: 20px;
 }
 
-.infophoto{
-    height: 200px;
+.infophotoliens{
+    height: 250px;
 }
 
 .info{
     float: left;
+}
+.liens{
+    float: center;
 }
 
 .photo{
@@ -88,7 +91,7 @@ strong{
     }
 
 .formation{
-    width: 100%;
+    width: 80%;
     height: auto;
     background-color: green;
     border-radius: 10px;
@@ -96,7 +99,7 @@ strong{
 }
 
 .experiences{
-    width: 100%;
+    width: 80%;
     height: auto;
     background-color: red;
     border-radius: 10px;
@@ -104,7 +107,7 @@ strong{
 }
 
 .competences{
-    width: 100%;
+    width: 80%;
     height: auto;
     background-color: yellow;
     border-radius: 10px;
@@ -112,7 +115,7 @@ strong{
 }
 
 .publications{
-    width: 100%;
+    width: 80%;
     height: auto;
     background-color: blue;
     border-radius: 10px;
