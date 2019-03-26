@@ -1,7 +1,7 @@
 .page{
-    width: 780px;
+    width: 100%;
     margin: auto;
-    font-family: 'Source sans pro', Calibri, Tahoma, sans-serif;
+    font-family: 'Indie Flower', cursive;
     font-size: 14px;
     border: 5px solid #3388cc;
     border-radius: 10px;
@@ -10,7 +10,7 @@
 }
 
 .infophoto{
-    height: 250px;
+    height: 200px;
 }
 
 .info{
@@ -33,7 +33,7 @@
 }
 
 .sec-droite{
-    margin-left: 300px;
+    margin-left: 150px;
     margin-top: 40px;
 }
 
@@ -80,4 +80,41 @@ h2{
 
 strong{
     font-size: 22px;
+}
+
+#conteneur1{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.formation{
+    width: 100%;
+    height: auto;
+    background-color: green;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.experiences{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.competences{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.publications{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
 }
