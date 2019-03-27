@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 }
 
 /* Style the header */
@@ -84,12 +85,101 @@ footer {
   padding: 20px;
 }
 
+=======
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 15px;
+  width: auto;
+  height: 300px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 0.6;
+  -ms-flex: 0.6;
+  flex: 0.6;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .section2 {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .conteneur {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+
+.page{
+  width: 100%;
+  margin: auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: 14px;
+  padding: 20px;
+}
+
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
 .conteneurheader{
   margin-bottom: 30px;
   text-align: justify;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+<<<<<<< HEAD
+=======
+}
+
+.section2{
+  margin-bottom: 70px;
+  text-align: justify;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
 }
 
 .sec-gauche{
@@ -150,6 +240,7 @@ strong{
   font-style: bold;
 }
 
+<<<<<<< HEAD
 /* section pour experiences, formation, competences, publications */
 .art{
   margin-bottom: 35px;
@@ -164,10 +255,19 @@ strong{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+=======
+#conteneur{
+  display: flex;
+  flex-wrap: wrap;
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
 }
 
 .experiences{
   width: 90%;
+<<<<<<< HEAD
+=======
+  height: auto;
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
   background-color: red;
   border-radius: 10px;
   padding: 20px;
@@ -175,6 +275,10 @@ strong{
 
 .formation{
   width: 90%;
+<<<<<<< HEAD
+=======
+  height: auto;
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
   background-color: green;
   border-radius: 10px;
   padding: 20px;
@@ -182,6 +286,10 @@ strong{
 
 .competences{
   width: 90%;
+<<<<<<< HEAD
+=======
+  height: auto;
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
   background-color: yellow;
   border-radius: 10px;
   padding: 20px;
@@ -189,9 +297,21 @@ strong{
 
 .publications{
   width: 90%;
+<<<<<<< HEAD
+=======
+  height: auto;
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
   background-color: blue;
   border-radius: 10px;
   padding: 20px;
 }
 
+<<<<<<< HEAD
 
+=======
+.img-responsive{
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+>>>>>>> faf2b956f0059d369bcf4e69ee738d318379eee1
