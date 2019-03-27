@@ -187,6 +187,7 @@ strong{
   background-color: yellow;
   border-radius: 10px;
   padding: 20px;
+  line-height: 0.7;
 }
 
 .publications{
@@ -195,5 +196,51 @@ strong{
   border-radius: 10px;
   padding: 20px;
 }
+.liens{
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+}
 
+/* pour styler les flexboxes Logiciels */
 
+.flex-container-logiciels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container-logiciels > div {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  padding: 2px;
+  border: 1px solid #cccccc;
+  background-color: #f1f1f1;
+}
+/* pour styler les flexboxes Langues */
+.flex-container-langues {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container-langues > div {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  padding: 2px;
+}
+
+/* Progress bar */
+progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
