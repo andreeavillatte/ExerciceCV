@@ -7,6 +7,7 @@ body {
   height: 200px;
   background-color: #cccccc;
   /* background-image: url(website/Memento/assets/img/background.jpeg); */
+  background: #FF9500;
 }
 
 /* Style the header */
@@ -61,18 +62,6 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .section {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .conteneur1, .conteneur2, .conteneur3 {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
-}
 /* Style the photo   */
 .img-responsive{
   box-shadow: 4px 8px 20px;
@@ -252,3 +241,17 @@ progress[value]::-webkit-progress-value {
     border-radius: 2px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .conteneur1, .conteneur2, .conteneur3 {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
