@@ -4,11 +4,15 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  height: 200px;
+  background-color: #cccccc;
+  /* background-image: url(website/Memento/assets/img/background.jpeg); */
 }
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: #FF7B00;
+  border-radius: 10px;
   padding: 15px;
   width: auto;
   height: 300px;
@@ -28,7 +32,8 @@ nav {
   -webkit-flex: 0.6;
   -ms-flex: 0.6;
   flex: 0.6;
-  background: #ccc;
+  background: #FFE400;
+  border-radius: 10px;
   padding: 20px;
 }
 
@@ -43,13 +48,14 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   padding: 10px;
 }
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: #FF9500;
+  border-radius: 10px;
   padding: 10px;
   text-align: center;
   color: white;
@@ -69,6 +75,8 @@ footer {
 }
 /* Style the photo   */
 .img-responsive{
+  box-shadow: 4px 8px 20px;
+  border-radius: 30px;
   display: block;
   max-width: 50%;
   height: auto;
